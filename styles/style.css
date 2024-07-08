@@ -188,3 +188,85 @@ body {
     font-weight: 700;
     margin-top: 50px;
 }
+
+/* Coming soon section style start here */
+
+.comingsoon-container {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.comingsoon-1st-content {
+    width: 33%;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.comingsoon-1st-content h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.comingsoon-1st-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.comingsoon-1st-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comingsoon-2nd-content {
+    width: 34%;
+    height: 463px;
+    border: 15px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px;
+    box-sizing: border-box;
+    border-radius: 50% 50%;
+    margin-left: 30px;
+}
+
+.comingsoon-3rd-content {
+    width: 33%;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    gap: 30px;
+    margin-left: 126px;
+}
+.comingsoon-3rd-content h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.comingsoon-3rd-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.comingsoon-3rd-content img {
+    width: 140px;
+    height: 140px;
+    left: 1184px;
+    right: -1184px;
+}
