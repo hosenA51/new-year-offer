@@ -505,7 +505,7 @@ body {
 .social-icons {
     width: 400px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 75px;
     display: flex;
     justify-content: space-evenly;
 }
