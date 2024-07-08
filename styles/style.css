@@ -238,7 +238,7 @@ body {
     padding: 36px;
     box-sizing: border-box;
     border-radius: 50% 50%;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 
 .comingsoon-3rd-content {
@@ -269,4 +269,80 @@ body {
     height: 140px;
     left: 1184px;
     right: -1184px;
+}
+
+/* Holyday section style starts here */
+
+.holyday-section-container {
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.holyday-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.holyday-text-content h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holyday-text-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holyday-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background: red;
+    border-radius: 16px 0px 16px 16px;
+    position: absolute;
+    margin-top: 35%;
+}
+.giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.men-pic {
+    width: 429px;
+    height: 433px;
+    margin-left: 67.8%;
+    margin-top: 02.2%;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+.discount {
+    width: 206.84px;
+    height: 206.84px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 58%;
+    bottom: 35%;
 }
